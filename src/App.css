@@ -1,38 +1,40 @@
-.App {
-  text-align: center;
+body {
+    margin: 0;
+    /* background: rgb(255,105,105); */
+    background: linear-gradient(0deg, rgba(255,105,105,1) 0%, rgba(255,245,224,1) 70%);
+    height: 100vh;
+
+}
+.cont {
+    display: flex;
+    justify-content: center;
+}
+button {
+    background-color: #141E46;
+    color: #FFF5E0;
+    padding: 20px;
+    border: none;
+    border-radius: 20px;
+    font-size: 20px;
+    font-family: 'Dosis', sans-serif;
+}
+button:hover {
+    background-color: #30395c;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+h3 {
+    color: #BB2525;
+    font-size: 40px;
+    font-family: 'Dosis', sans-serif;
+    text-transform: uppercase;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+h1, h2 {
+    font-family: 'Bebas Neue', sans-serif;
+    color: #141E46;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+h1 {
+    font-size: 50px;
 }
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
+/* h2 {
+    font-size: 40px;
+} */
